@@ -7,8 +7,8 @@ app.secret_key = 'your_secret_key'
 # mysql connection
 conn = mysql.connector.connect(
     host='localhost',
-    user='quiz_user',
-    password='sruja',
+    user='your_user',
+    password='your_password',
     database='quiz_db'
 )
 cursor = conn.cursor()
